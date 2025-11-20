@@ -42,4 +42,4 @@ Klik link pada tabel di atas untuk melihat detail tiap modul.
 
 ### ✨ Terima Kasih
 
-> Dibuat dengan semangat belajar dan eksperimen oleh Ahmad Qayyim 💻
+> Dibuat dengan semangat dan kasih sayang oleh Ahmad Qayyim 💻
