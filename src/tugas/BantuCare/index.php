@@ -7,9 +7,6 @@ require_once "App/Bencana/DonasiGempa.php";
 use App\Bencana\DonasiBanjir;
 use App\Bencana\DonasiGempa;
 
-// ==========================================
-// 1. DONASI BANJIR
-// ==========================================
 
 echo "\n1. Donasi Banjir:";
 echo "\n----------------------------------------\n";
@@ -25,10 +22,6 @@ echo "Pesan        : " . $donasi1->getPesan() . "\n";
 echo "Keterangan   : " . $donasi1->infoBanjir() . "\n";
 
 
-// ==========================================
-// 2. DONASI GEMPA
-// ==========================================
-
 echo "\n2. Donasi Gempa:";
 echo "\n----------------------------------------\n";
 
@@ -40,10 +33,6 @@ echo "Total Donasi : Rp " . number_format($donasi2->getNominal(), 0, ',', '.') .
 echo "Skala Gempa  : " . $donasi2->getSkala() . " SR\n";
 echo "Keterangan   : " . $donasi2->infoGempa() . "\n";
 
-
-// ==========================================
-// 3. DAFTAR SEMUA DONASI
-// ==========================================
 
 echo "\n3. Rekap Semua Donasi";
 echo "\n========================================\n";
